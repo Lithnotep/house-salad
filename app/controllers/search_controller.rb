@@ -10,6 +10,5 @@ class SearchController < ApplicationController
     # response = conn.get("/congress/v1/members/house/#{state}/current.json")
     # json = JSON.parse(response.body, symbolize_names: true)
     # @members = json[:results]
-
   end
 end
